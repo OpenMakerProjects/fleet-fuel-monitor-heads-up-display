@@ -1,0 +1,21 @@
+{
+  "id": 740,
+  "title": "Fleet Fuel Monitor Heads-Up Display",
+  "repository_slug": "fleet-fuel-monitor-heads-up-display",
+  "category": "Smart Vehicles",
+  "platform": "ESP32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "connectivity": "CAN bus",
+  "components": [
+    "ultrasonic sensors",
+    "GPS module",
+    "temperature sensor"
+  ],
+  "scope": "Build a smart vehicles prototype that uses ultrasonic sensors, GPS module, temperature sensor to show essential vehicle information. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Heads-Up Display demonstration with repeatable test steps",
+  "mode": "telemetry",
+  "entrypoint": "firmware/fleet-fuel-monitor-heads-up-display/fleet-fuel-monitor-heads-up-display.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
